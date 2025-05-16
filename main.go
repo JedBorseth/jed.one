@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 func main() {
-	gin.SetMode(gin.DebugMode)
+	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 	r.SetTrustedProxies([]string{"127.0.0.1"})
 
