@@ -9,7 +9,8 @@ import (
 func main() {
 	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
-	r.SetTrustedProxies([]string{"127.0.0.1"})
+	r.SetTrustedProxies([]string{"0.0.0.0/0"})
+
 
 	// API routes first
 	v1 := r.Group("/api/v1")
