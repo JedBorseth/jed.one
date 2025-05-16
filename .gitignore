@@ -1,0 +1,39 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Go build and debug
+/bin/
+/pkg/
+/vendor/
+debug/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# JavaScript/Node.js specific (in docs)
+/docs/**/node_modules/
+/docs/**/dist/
+/docs/**/build/
+/docs/**/.next/
+/docs/**/*.log
+/docs/**/.env
+/docs/**/.env.local
+/docs/**/.DS_Store
+/docs/**/coverage/
+/docs/**/.cache/
+/docs/**/yarn.lock
+/docs/**/package-lock.json
+
+# OS specific
+.DS_Store
+Thumbs.db

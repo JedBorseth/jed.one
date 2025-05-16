@@ -1,0 +1,42 @@
+---
+title: Jed.One API Documentation
+description: The Jed.One API documentation.
+template: splash
+hero:
+  tagline: Random API's that are useful for myself and others.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Get Started
+      link: /guides/example/
+      icon: right-arrow
+    - text: View My Portfolio
+      link: https://jedborseth.com
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Other Projects
+
+<CardGrid stagger>
+  <Card title="Temp Route" icon="pencil">
+  This temporary route is used for testing and previewing my latest projects, which are available at <a href="https://tmp.jed.one">tmp.jed.one</a>.
+</Card>
+
+{" "}
+
+<Card title="Github" icon="add-document">
+  Explore a wide range of my personal and collaborative projects on{" "}
+  <a href="https://github.com/jedborseth">GitHub</a>, including web apps,
+  experimental tools, and open source contributions.
+</Card>
+
+  <Card title="More Coming Soon" icon="setting">
+    Stay tuned for more exciting projects and updates in the future!
+  </Card>
+  <Card title="Read the docs" icon="open-book">
+    Learn more in the  [Jed.one Docs](/guides/example/).
+  </Card>
+</CardGrid>
