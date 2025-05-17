@@ -1,1 +1,1 @@
-web: v2
+web: jed.one
