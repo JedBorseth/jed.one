@@ -44,7 +44,4 @@ curl https://api.jed.one/api/v1/benny?width=500&height=300
 
 - If only one dimension (width or height) is provided, the image maintains its aspect ratio
 - The API automatically handles image scaling and optimization
-
-## Further reading
-
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+- The Benny route is a fun way to share images of Benny with friends and family
