@@ -26,6 +26,7 @@ func RegisterRoutes(r *gin.Engine) {
 
 		v1.GET("/url", controllers.UrlHandler)
 	}
+	r.GET("/url/:shortCode", controllers.RedirectToOriginalURL)
 
 	r.Use(staticHandler("./docs/static"))
 	
